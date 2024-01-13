@@ -2,7 +2,7 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientId = "c2a4b22c66804dbcb1e3924008ffdcdb";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spotify-one-neon.vercel.app/api/auth/callback/spotify/";
 const scopes = [
   "user-read-currently-playing",
   "user-read-recently-played",
